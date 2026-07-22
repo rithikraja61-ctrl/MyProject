@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Blood-Donor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Salon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TaskManager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TransitOps-Smart-Transport-Operations-Platform" vcs="Git" />
+  </component>
+</project>
