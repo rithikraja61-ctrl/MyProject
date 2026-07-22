@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe61c4b2-a1f3-489f-827e-3bb5d9464ad2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blood-Donor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blood-Donor/.idea/Blood-Donor-Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blood-Donor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blood-Donor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blood-Donor/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,0 +1,111 @@
+.blood-bank-inventory__error {
+  color: #c0392b;
+  margin-bottom: 0.75rem;
+}
+
+.blood-bank-inventory__success {
+  color: #1a7f4b;
+  margin-bottom: 0.75rem;
+}
+
+.blood-bank-inventory__add-panel {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid var(--landing-border);
+  border-radius: var(--radius-md);
+  background: var(--color-white);
+  box-shadow: var(--landing-shadow);
+}
+
+.blood-bank-inventory__panel-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+}
+
+.blood-bank-inventory__panel-hint {
+  margin: 0 0 1rem;
+  font-size: 0.85rem;
+  color: var(--landing-text-muted);
+}
+
+.blood-bank-inventory__add-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.blood-bank-inventory__form-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.blood-bank-inventory__decrease-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.blood-bank-inventory__decrease-row label {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.blood-bank-inventory__decrease-row input {
+  width: 4.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--landing-border);
+  border-radius: var(--radius-sm);
+}
+
+.blood-bank-inventory__secondary {
+  padding: 0.65rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--landing-border);
+  background: var(--landing-bg-soft);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.blood-bank-inventory__table-wrap {
+  overflow-x: auto;
+}
+
+.blood-bank-inventory__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  background: var(--color-white);
+}
+
+.blood-bank-inventory__table th,
+.blood-bank-inventory__table td {
+  border-bottom: 1px solid #eee;
+  padding: 0.55rem 0.4rem;
+  text-align: left;
+}
+
+.blood-bank-inventory__table input {
+  width: 4.5rem;
+  padding: 0.35rem;
+}
+
+.blood-bank-inventory__save {
+  padding: 0.35rem 0.65rem;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: var(--color-blood-red);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.blood-bank-inventory__save:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
