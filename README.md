@@ -10,6 +10,7 @@ A collection of full-stack applications and Java projects built during my learni
 | [Salon](./Salon/) | Microservices | Spring Boot, Eureka, API Gateway | Salon booking and management system with multiple services |
 | [TaskManager](./TaskManager/) | Console App | Java | Command-line task manager with user login and CRUD operations |
 | [TransitOps](./TransitOps-Smart-Transport-Operations-Platform/) | Full-Stack Web App | React, TypeScript, Spring Boot, MySQL, Docker | Smart transport operations platform for fleet management |
+| [Mini-ERP](./Mini-ERP/) | Full-Stack Web App | React, Spring Boot, MySQL, Docker | Shiv Furniture Works demand-to-delivery ERP portal |
 
 ## Repository Structure
 
@@ -30,9 +31,13 @@ All-Projects/
 │   ├── catagory-service/
 │   └── payment-service/
 ├── TaskManager/                       # Java console application
-└── TransitOps-Smart-Transport-Operations-Platform/
-    ├── TransitOps_backend/            # Spring Boot REST API
-    ├── TransitOps_frontend/           # React + TypeScript frontend
+├── TransitOps-Smart-Transport-Operations-Platform/
+│   ├── TransitOps_backend/            # Spring Boot REST API
+│   ├── TransitOps_frontend/           # React + TypeScript frontend
+│   └── docker-compose.yml
+└── Mini-ERP/
+    ├── Frontend/                      # React + Vite frontend
+    ├── Backend/Mini-ERP/              # Spring Boot REST API
     └── docker-compose.yml
 ```
 
@@ -63,6 +68,13 @@ Start each service individually via Maven. See [Salon README](./Salon/README.md)
 cd TaskManager
 javac *.java
 java Main
+```
+
+### Mini-ERP
+```bash
+cd Mini-ERP
+docker-compose up --build
+# Frontend: http://localhost:3000 | Backend: http://localhost:8080
 ```
 
 ## Prerequisites
